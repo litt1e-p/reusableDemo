@@ -1,0 +1,12 @@
+PODS:
+  - ReusableKit (1.0.0)
+
+DEPENDENCIES:
+  - ReusableKit (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  ReusableKit: 236864f798e5a75111f7cfdccf85a859c7d31125
+
+PODFILE CHECKSUM: 3e629e429381982c3688ea5c3eae762fc1bc49ee
+
+COCOAPODS: 1.1.0.beta.2
