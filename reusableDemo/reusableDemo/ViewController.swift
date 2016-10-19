@@ -12,7 +12,7 @@ import ReusableKit
 class ViewController: UIViewController
 {
     struct Reusable {
-        static let vcCell = ReusableCell<CollectionViewCell>()
+        static let vcCell = ReusableCell<CollectionViewCell>(nibName: "CollectionViewCell")
     }
     
     private let kHomeCellMargin: CGFloat = 5.0

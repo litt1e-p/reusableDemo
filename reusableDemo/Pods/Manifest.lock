@@ -2,11 +2,21 @@ PODS:
   - ReusableKit (1.0.0)
 
 DEPENDENCIES:
-  - ReusableKit (~> 1.0.0)
+  - ReusableKit (from `https://github.com/devxoul/ReusableKit`, branch `nib-support`)
+
+EXTERNAL SOURCES:
+  ReusableKit:
+    :branch: nib-support
+    :git: https://github.com/devxoul/ReusableKit
+
+CHECKOUT OPTIONS:
+  ReusableKit:
+    :commit: ce5d7a0f3f5ecedf4930e80a6de913e6c2bd4d41
+    :git: https://github.com/devxoul/ReusableKit
 
 SPEC CHECKSUMS:
   ReusableKit: 236864f798e5a75111f7cfdccf85a859c7d31125
 
-PODFILE CHECKSUM: 3e629e429381982c3688ea5c3eae762fc1bc49ee
+PODFILE CHECKSUM: 0d537cae2a265c9c0bac64b8928429576a5afe6e
 
 COCOAPODS: 1.1.0.beta.2
